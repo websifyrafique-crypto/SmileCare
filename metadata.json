@@ -1,0 +1,6 @@
+{
+  "name": "SmileCare Dental Studio",
+  "description": "A premium dental clinic website for Lahore, Pakistan, featuring online appointments, service details, and patient education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
