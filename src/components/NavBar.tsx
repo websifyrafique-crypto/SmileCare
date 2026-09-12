@@ -64,7 +64,7 @@ export default function NavBar() {
                 <Link
                   to={link.path}
                   className={clsx(
-                    'flex items-center text-sm font-semibold transition-colors',
+                    'flex items-center py-4 text-sm font-semibold transition-colors',
                     pathname === link.path || (link.path !== '/' && pathname.startsWith(link.path))
                       ? 'text-sky-600'
                       : 'text-slate-600 hover:text-sky-600'
@@ -75,16 +75,18 @@ export default function NavBar() {
                 </Link>
 
                 {link.hasDropdown && (
-                  <div className="absolute left-0 top-full mt-2 hidden w-64 origin-top-left flex-col rounded-xl bg-white p-2 shadow-xl ring-1 ring-slate-900/5 group-hover:flex">
-                    {SERVICES.map((service) => (
-                      <Link
-                        key={service.id}
-                        to={`/services/${service.id}`}
-                        className="rounded-lg px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
-                      >
-                        {service.title}
-                      </Link>
-                    ))}
+                  <div className="absolute left-0 top-full hidden pt-4 group-hover:block z-50">
+                    <div className="flex w-64 origin-top-left flex-col rounded-xl bg-white p-2 shadow-xl ring-1 ring-slate-900/5">
+                      {SERVICES.map((service) => (
+                        <Link
+                          key={service.id}
+                          to={`/services/${service.id}`}
+                          className="rounded-lg px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+                        >
+                          {service.title}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>

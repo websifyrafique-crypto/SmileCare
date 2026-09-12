@@ -4,10 +4,10 @@ import { motion, AnimatePresence } from 'motion/react';
 const CATEGORIES = ['All', 'Teeth Whitening', 'Veneers', 'Braces', 'Implants'];
 
 const GALLERY_DATA = [
-  { id: 1, category: 'Teeth Whitening', before: 'https://images.unsplash.com/photo-1606265814510-928d3f7400d1?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1598256989800-fea5ce5146f2?auto=format&fit=crop&w=400&q=80' },
-  { id: 2, category: 'Veneers', before: 'https://images.unsplash.com/photo-1579840333246-88062f6825c3?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=400&q=80' },
+  { id: 1, category: 'Teeth Whitening', before: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=400&q=80' },
+  { id: 2, category: 'Veneers', before: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=400&q=80' },
   { id: 3, category: 'Implants', before: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80' },
-  { id: 4, category: 'Braces', before: 'https://images.unsplash.com/photo-1593081156828-4ce8bc459419?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1628177142898-93e46e623666?auto=format&fit=crop&w=400&q=80' },
+  { id: 4, category: 'Braces', before: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80', after: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=400&q=80' },
 ];
 
 export default function Gallery() {
