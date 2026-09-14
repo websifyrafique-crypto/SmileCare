@@ -10,12 +10,7 @@ export default function Footer() {
           {/* Brand Col */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center space-x-2 text-white">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-sky-500">
-                <Activity className="h-6 w-6" />
-              </div>
-              <span className="text-2xl font-bold tracking-tight">
-                Smile<span className="text-sky-500">Care</span>
-              </span>
+              <img src="/logo.png" alt="SmileCare Dental Studio" className="h-10 w-auto brightness-0 invert" />
             </Link>
             <p className="text-sm leading-relaxed text-slate-400">
               Premium dental care in Lahore designed around your comfort, oral health, and long-term smile confidence. Experience modern dentistry with a personal touch.
