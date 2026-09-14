@@ -66,7 +66,9 @@ export default function Home() {
               className="relative lg:ml-auto"
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white p-2">
-                <img
+                <motion.img
+                  animate={{ scale: [1, 1.05, 1] }}
+                  transition={{ repeat: Infinity, duration: 10, ease: "easeInOut" }}
                   src="/2519.jpg"
                   alt="Patient smiling at dental clinic"
                   className="rounded-2xl object-cover w-full h-[500px]"
