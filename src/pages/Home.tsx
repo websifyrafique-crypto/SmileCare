@@ -67,7 +67,7 @@ export default function Home() {
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white p-2">
                 <img
-                  src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=80"
+                  src="/2519.jpg"
                   alt="Patient smiling at dental clinic"
                   className="rounded-2xl object-cover w-full h-[500px]"
                 />
